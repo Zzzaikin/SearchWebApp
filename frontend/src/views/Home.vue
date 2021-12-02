@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <Search class="pa-10"> </Search>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import Search from "../components/Search";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    Search,
+  },
+};
 </script>
