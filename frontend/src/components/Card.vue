@@ -23,6 +23,14 @@
             <CompleteStageSlider
               :completeStage="completeStage"
             ></CompleteStageSlider>
+            <p class="mt-2">
+              <span class="parameter-title">Краткое описание: </span>
+              <span class="ml-2">{{
+                shortDescription.length > MAX_SYMBOLS
+                  ? shortDescription.slice(0, MAX_SYMBOLS) + "..."
+                  : shortDescription
+              }}</span>
+            </p>
             <p class="my-3">
               <span class="parameter-title"
                 >Кейсы использования продукта:
@@ -49,12 +57,20 @@
                   : productBenefits
               }}</span>
             </p>
-            <p>
-              <span class="parameter-title">Краткое описание: </span>
+            <p class="my-3">
+              <span class="parameter-title">Предметная область: </span>
               <span class="ml-2">{{
-                shortDescription.length > MAX_SYMBOLS
-                  ? shortDescription.slice(0, MAX_SYMBOLS) + "..."
-                  : shortDescription
+                subject.length > MAX_SYMBOLS
+                  ? subject.slice(0, MAX_SYMBOLS) + "..."
+                  : subject
+              }}</span>
+            </p>
+            <p class="my-3">
+              <span class="parameter-title">Технологии: </span>
+              <span class="ml-2">{{
+                technology.length > MAX_SYMBOLS
+                  ? technology.slice(0, MAX_SYMBOLS) + "..."
+                  : technology
               }}</span>
             </p>
           </div>
@@ -80,6 +96,8 @@ export default {
     "pilotProjectExists",
     "productBenefits",
     "shortDescription",
+    "technology",
+    "subject",
   ],
   components: { Filters, CompleteStageSlider },
   data: () => ({

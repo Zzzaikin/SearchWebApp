@@ -16,6 +16,8 @@
                 :pilotProjectExists="item.pilotProjectExists"
                 :productBenefits="item.productBenefits"
                 :shortDescription="item.shortDescription"
+                :subject="item.subject"
+                :technology="item.technology"
               ></Card>
             </v-col>
             <v-col v-if="chunkedCards[i].length < 2">

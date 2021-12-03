@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     applications: [
       {
-        techlogy: "Машинное обучение",
+        technology: "Машинное обучение",
         subject: "Общество и благосфера",
         id: 0,
         imageSrc: null,
@@ -44,7 +44,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Веб-приложение",
+        technology: "Веб-приложение",
         subject: "Строительство",
         id: 1,
         imageSrc: null,
@@ -80,7 +80,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Блокчейн",
+        technology: "Блокчейн",
         subject: "Финансы",
         id: 2,
         imageSrc: null,
@@ -116,7 +116,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Машинное обучение",
+        technology: "Машинное обучение",
         subject: "Финансы",
         id: 3,
         imageSrc: null,
@@ -152,7 +152,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Веб-приложение",
+        technology: "Веб-приложение",
         subject: "Энергетика",
         id: 4,
         imageSrc: null,
@@ -188,7 +188,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Машинное обучение",
+        technology: "Машинное обучение",
         subject: "Строительство",
         id: 5,
         imageSrc: null,
@@ -224,7 +224,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Блокчейн",
+        technology: "Блокчейн",
         subject: "Финансы",
         id: 6,
         imageSrc: null,
@@ -261,7 +261,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Веб-приложение",
+        technology: "Веб-приложение",
         subject: "Общество и благосфера",
         id: 7,
         imageSrc: null,
@@ -297,7 +297,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Машинное обучение",
+        technology: "Машинное обучение",
         subject: "Строительство",
         id: 8,
         imageSrc: null,
@@ -333,7 +333,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Блокчейн",
+        technology: "Блокчейн",
         subject: "Робототехника",
         id: 9,
         imageSrc: null,
@@ -369,7 +369,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Виртуальная реальность",
+        technology: "Виртуальная реальность",
         subject: "Финансы",
         id: 10,
         imageSrc: null,
@@ -405,7 +405,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Блокчейн",
+        technology: "Блокчейн",
         subject: "Строительство",
         id: 11,
         imageSrc: null,
@@ -441,7 +441,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Машинное обучение",
+        technology: "Машинное обучение",
         subject: "Общество и благосфера",
         id: 12,
         imageSrc: null,
@@ -478,7 +478,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Виртуальная реальность",
+        technology: "Виртуальная реальность",
         subject: "Робототехника",
         id: 13,
         imageSrc: null,
@@ -514,7 +514,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Виртуальная реальность",
+        technology: "Виртуальная реальность",
         subject: "Строительство",
         id: 14,
         imageSrc: null,
@@ -550,7 +550,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Машинное обучение",
+        technology: "Машинное обучение",
         subject: "Финансы",
         id: 15,
         imageSrc: null,
@@ -586,7 +586,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Виртуальная реальность",
+        technology: "Виртуальная реальность",
         subject: "Энергетика",
         id: 16,
         imageSrc: null,
@@ -622,7 +622,7 @@ export default new Vuex.Store({
         },
       },
       {
-        techlogy: "Виртуальная реальность",
+        technology: "Виртуальная реальность",
         subject: "Строительство",
         id: 17,
         imageSrc: null,
