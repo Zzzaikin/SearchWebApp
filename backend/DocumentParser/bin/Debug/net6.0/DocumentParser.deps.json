@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DocumentParser/1.0.0": {
+        "dependencies": {
+          "BitMiracle.Docotic.Pdf": "8.3.12622",
+          "DocumentFormat.OpenXml": "2.14.0"
+        },
+        "runtime": {
+          "DocumentParser.dll": {}
+        }
+      },
+      "BitMiracle.Docotic.Pdf/8.3.12622": {
+        "runtime": {
+          "lib/netstandard2.0/BitMiracle.Docotic.Pdf.dll": {
+            "assemblyVersion": "8.3.12622.0",
+            "fileVersion": "8.3.12622.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/2.14.0": {
+        "dependencies": {
+          "System.IO.Packaging": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.0.0"
+          }
+        }
+      },
+      "System.IO.Packaging/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DocumentParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BitMiracle.Docotic.Pdf/8.3.12622": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJ6O9YW+JxuTIqBL8iGkOQDYXWJKv1kTRKxtkJroDtIACKu+01JAAb8CC3TaDeqyo4Dv9CgsW6rPi9HhQVWgQA==",
+      "path": "bitmiracle.docotic.pdf/8.3.12622",
+      "hashPath": "bitmiracle.docotic.pdf.8.3.12622.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml/2.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-efqKeJ8gJwTD27cKwW60pG/JpelkVlsexNN7yWQ8e12urfEwUdHhlQEaQlNapEFGyxqzr4/Ys/5Snt5rjhw3sA==",
+      "path": "documentformat.openxml/2.14.0",
+      "hashPath": "documentformat.openxml.2.14.0.nupkg.sha512"
+    },
+    "System.IO.Packaging/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9VV4KAbgRQZ79iEoG40KIeZy38O30oWwewScAST879+oki8g/Wa2HXZQgrhDDxQM4GkP1PnRJll05NMiVPbYAw==",
+      "path": "system.io.packaging/4.7.0",
+      "hashPath": "system.io.packaging.4.7.0.nupkg.sha512"
+    }
+  }
+}

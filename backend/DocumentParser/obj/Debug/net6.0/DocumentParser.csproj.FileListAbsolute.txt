@@ -1,0 +1,12 @@
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\bin\Debug\net6.0\DocumentParser.deps.json
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\bin\Debug\net6.0\DocumentParser.dll
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\bin\Debug\net6.0\ref\DocumentParser.dll
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\bin\Debug\net6.0\DocumentParser.pdb
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\DocumentParser.csproj.AssemblyReference.cache
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\DocumentParser.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\DocumentParser.AssemblyInfoInputs.cache
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\DocumentParser.AssemblyInfo.cs
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\DocumentParser.csproj.CoreCompileInputs.cache
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\DocumentParser.dll
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\ref\DocumentParser.dll
+D:\Projects\Hack\2021\INNO-TIM\DocumentParser\obj\Debug\net6.0\DocumentParser.pdb

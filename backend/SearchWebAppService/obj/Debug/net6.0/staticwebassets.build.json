@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "avUq9NVUmZOWyODuzdwGYHeUk2zs5qQIvZ9jniUqD30=",
+  "Source": "SearchWebAppService",
+  "BasePath": "_content/SearchWebAppService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

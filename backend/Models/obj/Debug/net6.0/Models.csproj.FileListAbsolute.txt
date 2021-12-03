@@ -1,0 +1,14 @@
+D:\Projects\Hack\2021\INNO-TIM\Models\bin\Debug\net6.0\Models.deps.json
+D:\Projects\Hack\2021\INNO-TIM\Models\bin\Debug\net6.0\Models.runtimeconfig.json
+D:\Projects\Hack\2021\INNO-TIM\Models\bin\Debug\net6.0\Models.dll
+D:\Projects\Hack\2021\INNO-TIM\Models\bin\Debug\net6.0\ref\Models.dll
+D:\Projects\Hack\2021\INNO-TIM\Models\bin\Debug\net6.0\Models.pdb
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.AssemblyInfo.cs
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.dll
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\ref\Models.dll
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.pdb
+D:\Projects\Hack\2021\INNO-TIM\Models\obj\Debug\net6.0\Models.genruntimeconfig.cache

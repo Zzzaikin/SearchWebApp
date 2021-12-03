@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NAvRxM+3boVSxuTk+7DYB8xD3Ua/RTuXhqPPd4gzt+1/zi1Ztomv4sDKWTbLJta6t/PEtoFP/grQHhKgwdjt+A==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Hack\\2021\\INNO-TIM\\DocumentParser\\DocumentParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.3.12622\\bitmiracle.docotic.pdf.8.3.12622.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\documentformat.openxml\\2.14.0\\documentformat.openxml.2.14.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
