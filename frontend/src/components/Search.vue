@@ -37,7 +37,7 @@
       :close-on-content-click="false"
     >
       <v-sheet class="pa-4 sheet">
-        <Filters> </Filters>
+        <Filters @closeMenu="menuIsOpened = false" v-model="filters"> </Filters>
       </v-sheet>
     </v-menu>
   </div>
@@ -61,6 +61,9 @@ export default {
   },
   watch: {
     text() {
+      this.$emit("input", { text: this.text, filters: this.filters });
+    },
+    filters() {
       this.$emit("input", { text: this.text, filters: this.filters });
     },
   },

@@ -2,7 +2,6 @@
   <div class="pa-10">
     <Search v-model="searchValue"> </Search>
     <div class="mt-10">
-      <pre>searchValue:{{ searchValue }}</pre>
       <div v-if="!loading">
         <div v-if="chunkedCards.length">
           <v-row class="ma-0" v-for="(chunk, i) in chunkedCards" :key="i">
@@ -57,11 +56,6 @@ export default {
     },
   }),
   computed: {
-    cards() {
-      //return this.$store.state.applications;
-      //return [];
-      //return this.$store.getters.applicationsBySearchValue(this.searchValue);
-    },
     chunkedCards() {
       return this.cards.length > 0 ? this.cards.chunk(2) : [];
     },

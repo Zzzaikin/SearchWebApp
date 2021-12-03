@@ -55,7 +55,6 @@
           persistent-hint
           max="120"
           min="0"
-          ticks="1"
           v-model="monthsCount"
         ></v-slider>
       </div>
