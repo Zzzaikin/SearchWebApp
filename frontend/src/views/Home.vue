@@ -69,7 +69,7 @@ export default {
   watch: {
     async searchValue() {
       this.loading = true;
-      await sleep(400);
+      await sleep(800);
       this.cards = this.$store.getters.applicationsBySearchValue(
         this.searchValue
       );

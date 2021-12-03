@@ -85,6 +85,9 @@ export default {
       return this.$store.getters.applicationById(applicationId);
     },
   },
+  mounted() {
+    window.scrollTo(0, 0);
+  },
 };
 </script>
 <style scoped>

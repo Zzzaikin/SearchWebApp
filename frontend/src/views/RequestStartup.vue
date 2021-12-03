@@ -105,7 +105,7 @@
           ></v-textarea>
         </div>
       </div>
-      <v-btn color="primary">Отправить</v-btn>
+      <v-btn color="primary" @click="reload">Отправить</v-btn>
     </div>
   </v-container>
 </template>
@@ -141,6 +141,12 @@ export default {
       return `Длительность ${Number(years) || ""} ${wordYear} ${
         Number(months) || ""
       } ${Number(months) ? wordMonth : ""}`;
+    },
+  },
+  methods: {
+    reload() {
+      location.reload();
+      window.scrollTo(0, 0);
     },
   },
 };

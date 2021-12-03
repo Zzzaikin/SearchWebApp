@@ -6,7 +6,9 @@
   <div class="wrapper">
     <div class="my-3 wr">
       <span class="parameter-title">Стадия:</span>
-      <span> {{ items.find((el) => el.num === completeStage).text }}</span>
+      <span>
+        {{ items.find((el) => el.num === completeStage).text }}
+      </span>
     </div>
     <div class="stepper-wrapper">
       <template v-for="(item, i) in items">
@@ -36,27 +38,27 @@ export default {
     items: [
       {
         num: 1,
-        text: "Скрининг",
+        text: "1) Скрининг",
       },
       {
         num: 2,
-        text: "Скоринг",
+        text: "2) Скоринг",
       },
       {
         num: 3,
-        text: "Экспертный совет",
+        text: "3) Экспертный совет",
       },
       {
         num: 4,
-        text: "Акселерационная программа",
+        text: "4) Акселерационная программа",
       },
       {
         num: 5,
-        text: "Программа пилотирования",
+        text: "5) Программа пилотирования",
       },
       {
         num: 6,
-        text: "Инвестирование",
+        text: "6) Инвестирование",
       },
     ],
   }),
