@@ -6,7 +6,7 @@
           <div class="application-title-wrapper">
             <span
               :title="title"
-              class="text-h5 text--primary application-title"
+              class="text-h4 text--primary application-title"
               >{{ application.title }}</span
             >
             <p class="my-3 mt-7">
@@ -42,18 +42,107 @@
               <div class="wrapper">
                 <div class="main-info">
                   <p class="my-3">
-                    <span class="parameter-title"
-                      >Кейсы использования продукта:
-                    </span>
-                    <span class="ml-2">{{ application.useCases }}</span>
+                    <span class="parameter-title">Краткое описание: </span>
+                    <span class="ml-2">{{ application.shortDescription }}</span>
                   </p>
                   <p class="my-3">
                     <span class="parameter-title">Польза продукта: </span>
                     <span class="ml-2">{{ application.productBenefits }}</span>
                   </p>
                   <p>
-                    <span class="parameter-title">Краткое описание: </span>
-                    <span class="ml-2">{{ application.shortDescription }}</span>
+                    <span class="parameter-title"
+                      >Кейсы использования продукта:
+                    </span>
+                    <span class="ml-2">{{ application.useCases }}</span>
+                  </p>
+                  <h3 class="mt-10">Пилотный проект:</h3>
+                  <p class="mt-5">
+                    <span class="parameter-title">Название: </span>
+                    <span class="ml-2">{{
+                      application.pilotProject.title
+                    }}</span>
+                  </p>
+                  <p class="mt-5">
+                    <span class="parameter-title"
+                      >Дата инициации проекта:
+                    </span>
+                    <span class="ml-2">{{
+                      application.pilotProject.initDate
+                    }}</span>
+                  </p>
+                  <p class="mt-5">
+                    <span class="parameter-title"
+                      >Команда пилотного проекта:
+                    </span>
+                    <span class="ml-2">{{
+                      application.pilotProject.team
+                    }}</span>
+                  </p>
+                  <p class="mt-5">
+                    <span class="parameter-title"
+                      >Субподрядная организация:
+                    </span>
+                    <span class="ml-2">{{
+                      application.pilotProject.SubordinateOrganization
+                    }}</span>
+                  </p>
+                  <p class="mt-5">
+                    <span class="parameter-title">Стадия: </span>
+                    <span class="ml-2">{{
+                      application.pilotProject.state
+                    }}</span>
+                  </p>
+                  <p class="mt-5">
+                    <span class="parameter-title">Фаза: </span>
+                    <span class="ml-2">{{
+                      application.pilotProject.phase
+                    }}</span>
+                  </p>
+                  <h3 class="mt-10">Юридическая информация:</h3>
+                  <p class="mt-5">
+                    <span class="parameter-title"
+                      >Наименование юридического лица:
+                    </span>
+                    <span class="ml-2">{{ application.legalEntityName }}</span>
+                  </p>
+                  <p>
+                    <span class="parameter-title">ИНН юридического лица: </span>
+                    <span class="ml-2">{{ application.legalEntityINN }}</span>
+                  </p>
+                  <p>
+                    <span class="parameter-title"
+                      >Сколько человек в организации:
+                    </span>
+                    <span class="ml-2">{{ application.employeesCount }}</span>
+                  </p>
+                  <p>
+                    <span class="parameter-title">Сайт: </span>
+                    <span class="ml-2">{{ application.site }}</span>
+                  </p>
+                  <h3 class="mt-10">Контактная информация:</h3>
+                  <p class="mt-5">
+                    <span class="parameter-title"
+                      >ФИО контактного лица по заявке:
+                    </span>
+                    <span class="ml-2">{{ application.contactFullName }}</span>
+                  </p>
+                  <p>
+                    <span class="parameter-title"
+                      >Должность контактного лица:
+                    </span>
+                    <span class="ml-2">{{ application.contactPosition }}</span>
+                  </p>
+                  <p>
+                    <span class="parameter-title">Контактный телефон: </span>
+                    <span class="ml-2">{{ application.contactPhone }}</span>
+                  </p>
+                  <p>
+                    <span class="parameter-title">Контактная почта: </span>
+                    <span class="ml-2">{{ application.contactEmail }}</span>
+                  </p>
+                  <p>
+                    <span class="parameter-title">Контактная почта: </span>
+                    <span class="ml-2">{{ application.contactEmail }}</span>
                   </p>
                 </div>
               </div>
