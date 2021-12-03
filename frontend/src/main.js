@@ -6,6 +6,15 @@ import vuetify from "./plugins/vuetify";
 
 Vue.config.productionTip = false;
 
+Object.defineProperty(Array.prototype, "chunk", {
+  value: function (chunkSize) {
+    var R = [];
+    for (var i = 0; i < this.length; i += chunkSize)
+      R.push(this.slice(i, i + chunkSize));
+    return R;
+  },
+});
+
 new Vue({
   router,
   store,

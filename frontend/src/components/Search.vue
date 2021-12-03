@@ -36,8 +36,9 @@
       :open-on-click="false"
       :close-on-content-click="false"
     >
-      <v-sheet class="pa-4"> </v-sheet>
-      <Filters> </Filters>
+      <v-sheet class="pa-4 sheet">
+        <Filters> </Filters>
+      </v-sheet>
     </v-menu>
   </div>
 </template>
@@ -65,5 +66,8 @@ export default {
 <style scoped>
 ::v-deep .v-text-field--enclosed .v-input__append-inner {
   margin-top: 10px !important;
+}
+.sheet {
+  background-color: white;
 }
 </style>
