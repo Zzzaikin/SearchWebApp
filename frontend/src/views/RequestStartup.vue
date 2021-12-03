@@ -94,8 +94,8 @@
           ></v-textarea>
         </div>
         <div class="mt-1">
-          <div>Телефон для связи</div>
           <v-textarea
+            placeholder="Телефон для связи"
             name="input-7-1"
             auto-grow
             outlined

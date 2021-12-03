@@ -42,16 +42,7 @@
               label="Стадия готовности"
             ></v-select>
           </v-col>
-          <v-col>
-            <v-select
-              outlined
-              multiple
-              v-model="f2"
-              class="filter mx-2"
-              :items="['Да', 'Нет']"
-              label="Требуется ли сертификация продукта"
-            ></v-select>
-          </v-col>
+
           <v-col>
             <v-select
               outlined
@@ -60,6 +51,45 @@
               class="filter mx-2"
               :items="['1-5', '6-10', '11-15', '16-20', '21-26', '27+']"
               label="Сколько человек в организации"
+            ></v-select>
+          </v-col>
+        </v-row>
+        <v-row class="ma-0">
+          <v-col>
+            <v-select
+              outlined
+              multiple
+              v-model="f1"
+              class="filter mx-2"
+              :items="[
+                'Машинное обучение',
+                'Веб-приложение',
+                'Базы данных',
+                'Виртуальная реальность',
+                'Облачные хранилища',
+                'Блокчейн',
+                'Инфокоммуникационные технологии',
+              ]"
+              label="Технология"
+            ></v-select>
+          </v-col>
+
+          <v-col>
+            <v-select
+              outlined
+              multiple
+              v-model="f3"
+              class="filter mx-2"
+              :items="[
+                'Общество и благосфера',
+                'Строительство',
+                'Финансы',
+                'Робототехника',
+                'Энергетика',
+                'Машиностроение',
+                'Сельское хозяйство',
+              ]"
+              label="Предметная область"
             ></v-select>
           </v-col>
         </v-row>

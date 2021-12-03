@@ -7,6 +7,8 @@ export default new Vuex.Store({
   state: {
     applications: [
       {
+        techlogy: "Машинное обучение",
+        subject: "Общество и благосфера",
         id: 0,
         imageSrc: null,
         title: "Аренда игрушечных домов ",
@@ -42,6 +44,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Веб-приложение",
+        subject: "Строительство",
         id: 1,
         imageSrc: null,
         title: "Доставка умных туалетов ",
@@ -76,6 +80,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Блокчейн",
+        subject: "Финансы",
         id: 2,
         imageSrc: null,
         title: "Утилизация советских печек ",
@@ -110,6 +116,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Машинное обучение",
+        subject: "Финансы",
         id: 3,
         imageSrc: null,
         title: "Доставка лунных волос ",
@@ -144,6 +152,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Веб-приложение",
+        subject: "Энергетика",
         id: 4,
         imageSrc: null,
         title: "Продажа умных лодок ",
@@ -178,6 +188,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Машинное обучение",
+        subject: "Строительство",
         id: 5,
         imageSrc: null,
         title: "Доставка корпоративных холодильников ",
@@ -212,6 +224,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Блокчейн",
+        subject: "Финансы",
         id: 6,
         imageSrc: null,
         title: "Аренда игрушечных домов ",
@@ -247,6 +261,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Веб-приложение",
+        subject: "Общество и благосфера",
         id: 7,
         imageSrc: null,
         title: "Доставка умных туалетов ",
@@ -281,6 +297,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Машинное обучение",
+        subject: "Строительство",
         id: 8,
         imageSrc: null,
         title: "Утилизация советских печек ",
@@ -315,6 +333,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Блокчейн",
+        subject: "Робототехника",
         id: 9,
         imageSrc: null,
         title: "Доставка лунных волос ",
@@ -349,6 +369,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Виртуальная реальность",
+        subject: "Финансы",
         id: 10,
         imageSrc: null,
         title: "Продажа умных лодок ",
@@ -383,6 +405,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Блокчейн",
+        subject: "Строительство",
         id: 11,
         imageSrc: null,
         title: "Доставка корпоративных холодильников ",
@@ -417,6 +441,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Машинное обучение",
+        subject: "Общество и благосфера",
         id: 12,
         imageSrc: null,
         title: "Аренда игрушечных домов ",
@@ -452,6 +478,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Виртуальная реальность",
+        subject: "Робототехника",
         id: 13,
         imageSrc: null,
         title: "Доставка умных туалетов ",
@@ -486,6 +514,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Виртуальная реальность",
+        subject: "Строительство",
         id: 14,
         imageSrc: null,
         title: "Утилизация советских печек ",
@@ -520,6 +550,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Машинное обучение",
+        subject: "Финансы",
         id: 15,
         imageSrc: null,
         title: "Доставка лунных волос ",
@@ -554,6 +586,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Виртуальная реальность",
+        subject: "Энергетика",
         id: 16,
         imageSrc: null,
         title: "Продажа умных лодок ",
@@ -588,6 +622,8 @@ export default new Vuex.Store({
         },
       },
       {
+        techlogy: "Виртуальная реальность",
+        subject: "Строительство",
         id: 17,
         imageSrc: null,
         title: "Доставка корпоративных холодильников ",
