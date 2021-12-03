@@ -17,33 +17,35 @@
           <v-col>
             <v-select
               outlined
+              multiplie
               class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
+              :items="[
+                'Скрининг',
+                'Скоринг',
+                'Экспертный совет',
+                'Акселерационная программа',
+                'Программа пилотирования',
+                'Инвестирование',
+              ]"
+              label="Стадия готовности"
             ></v-select>
           </v-col>
           <v-col>
             <v-select
               outlined
+              multiplie
               class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
+              :items="['Да', 'Нет']"
+              label="Требуется ли сертификация продукта"
             ></v-select>
           </v-col>
           <v-col>
             <v-select
               outlined
+              multiplie
               class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
-            ></v-select>
-          </v-col>
-          <v-col>
-            <v-select
-              outlined
-              class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
+              :items="['1-5', '6-10', '11-15', '16-20', '21-26', '27+']"
+              label="Сколько человек в организации"
             ></v-select>
           </v-col>
         </v-row>
@@ -54,33 +56,27 @@
           <v-col>
             <v-select
               outlined
+              multiplie
               class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
+              :items="['В работе', 'Приостановлен', 'Закрыт', 'Отменен']"
+              label="Состояние проекта"
             ></v-select>
           </v-col>
           <v-col>
             <v-select
               outlined
+              multiplie
               class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
-            ></v-select>
-          </v-col>
-          <v-col>
-            <v-select
-              outlined
-              class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
-            ></v-select>
-          </v-col>
-          <v-col>
-            <v-select
-              outlined
-              class="filter mx-2"
-              :items="items"
-              :label="defaultLabel"
+              :items="[
+                'Позиционирование в ОТКМ',
+                'Детализация параметров пилотного тестирования',
+                'Подготовка к пилотному тестированию',
+                'Проведение пилотного тестирования',
+                'Формирование отчёта пилотном тестировании',
+                'Закрытие пилотного проекта',
+                'Закрыт',
+              ]"
+              label="Фаза пилотного тестирования"
             ></v-select>
           </v-col>
         </v-row>

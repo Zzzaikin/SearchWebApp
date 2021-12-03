@@ -117,8 +117,5 @@ export default {
 }
 .application-title-wrapper {
   width: 60%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 </style>
