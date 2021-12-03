@@ -32,36 +32,6 @@
               v-model="f1"
               class="filter mx-2"
               :items="[
-                'Скрининг',
-                'Скоринг',
-                'Экспертный совет',
-                'Акселерационная программа',
-                'Программа пилотирования',
-                'Инвестирование',
-              ]"
-              label="Стадия готовности"
-            ></v-select>
-          </v-col>
-
-          <v-col>
-            <v-select
-              outlined
-              multiple
-              v-model="f3"
-              class="filter mx-2"
-              :items="['1-5', '6-10', '11-15', '16-20', '21-26', '27+']"
-              label="Сколько человек в организации"
-            ></v-select>
-          </v-col>
-        </v-row>
-        <v-row class="ma-0">
-          <v-col>
-            <v-select
-              outlined
-              multiple
-              v-model="f1"
-              class="filter mx-2"
-              :items="[
                 'Машинное обучение',
                 'Веб-приложение',
                 'Базы данных',
@@ -93,6 +63,37 @@
             ></v-select>
           </v-col>
         </v-row>
+        <v-row class="ma-0">
+          <v-col>
+            <v-select
+              outlined
+              multiple
+              v-model="f1"
+              class="filter mx-2"
+              :items="[
+                'Скрининг',
+                'Скоринг',
+                'Экспертный совет',
+                'Акселерационная программа',
+                'Программа пилотирования',
+                'Инвестирование',
+              ]"
+              label="Стадия готовности"
+            ></v-select>
+          </v-col>
+
+          <v-col>
+            <v-select
+              outlined
+              multiple
+              v-model="f3"
+              class="filter mx-2"
+              :items="['1-5', '6-10', '11-15', '16-20', '21-26', '27+']"
+              label="Сколько человек в организации"
+            ></v-select>
+          </v-col>
+        </v-row>
+
         <div class="filter-label ml-5" v-if="hasPilotProject">
           <span>Пилотный проект</span>
         </div>

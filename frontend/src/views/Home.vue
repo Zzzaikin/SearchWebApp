@@ -18,6 +18,7 @@
                 :shortDescription="item.shortDescription"
                 :subject="item.subject"
                 :technology="item.technology"
+                :imageSrc="item.imageSrc"
               ></Card>
             </v-col>
             <v-col v-if="chunkedCards[i].length < 2">

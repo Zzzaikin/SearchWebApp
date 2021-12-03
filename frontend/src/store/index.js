@@ -10,7 +10,7 @@ export default new Vuex.Store({
         technology: "Машинное обучение",
         subject: "Общество и благосфера",
         id: 0,
-        imageSrc: null,
+        imageSrc: "https://ftim.ru/_/img/stories/logo/traffic-data.svg",
         title: "Аренда игрушечных домов ",
         completeStage: 3,
         useCases:
@@ -47,7 +47,8 @@ export default new Vuex.Store({
         technology: "Веб-приложение",
         subject: "Строительство",
         id: 1,
-        imageSrc: null,
+        imageSrc:
+          "https://logos-world.net/wp-content/uploads/2021/02/DPD-Logo.png",
         title: "Доставка умных туалетов ",
         completeStage: 1,
         useCases:
@@ -83,7 +84,8 @@ export default new Vuex.Store({
         technology: "Блокчейн",
         subject: "Финансы",
         id: 2,
-        imageSrc: null,
+        imageSrc:
+          "https://logos-world.net/wp-content/uploads/2021/02/DPD-Logo.png",
         title: "Утилизация советских печек ",
         completeStage: 1,
         useCases:
@@ -119,7 +121,8 @@ export default new Vuex.Store({
         technology: "Машинное обучение",
         subject: "Финансы",
         id: 3,
-        imageSrc: null,
+        imageSrc:
+          "https://logos-world.net/wp-content/uploads/2021/02/DPD-Logo.png",
         title: "Доставка лунных волос ",
         completeStage: 2,
         useCases:
@@ -155,7 +158,8 @@ export default new Vuex.Store({
         technology: "Веб-приложение",
         subject: "Энергетика",
         id: 4,
-        imageSrc: null,
+        imageSrc:
+          "https://logos-world.net/wp-content/uploads/2021/02/DPD-Logo.png",
         title: "Продажа умных лодок ",
         completeStage: 6,
         useCases:
@@ -227,7 +231,7 @@ export default new Vuex.Store({
         technology: "Блокчейн",
         subject: "Финансы",
         id: 6,
-        imageSrc: null,
+        imageSrc: "https://ftim.ru/_/img/stories/logo/icrosswalk.svg",
         title: "Аренда игрушечных домов ",
         completeStage: 4,
         useCases:
@@ -264,7 +268,7 @@ export default new Vuex.Store({
         technology: "Веб-приложение",
         subject: "Общество и благосфера",
         id: 7,
-        imageSrc: null,
+        imageSrc: "https://ftim.ru/_/img/stories/logo/climate-guard.svg",
         title: "Доставка умных туалетов ",
         completeStage: 6,
         useCases:
@@ -300,7 +304,7 @@ export default new Vuex.Store({
         technology: "Машинное обучение",
         subject: "Строительство",
         id: 8,
-        imageSrc: null,
+        imageSrc: "https://ftim.ru/_/img/stories/logo/climate-guard.svg",
         title: "Утилизация советских печек ",
         completeStage: 3,
         useCases:
@@ -336,7 +340,7 @@ export default new Vuex.Store({
         technology: "Блокчейн",
         subject: "Робототехника",
         id: 9,
-        imageSrc: null,
+        imageSrc: "https://ftim.ru/_/img/stories/logo/titan.svg",
         title: "Доставка лунных волос ",
         completeStage: 2,
         useCases:
@@ -372,7 +376,7 @@ export default new Vuex.Store({
         technology: "Виртуальная реальность",
         subject: "Финансы",
         id: 10,
-        imageSrc: null,
+        imageSrc: "https://ftim.ru/_/img/stories/logo/edgevision.svg",
         title: "Продажа умных лодок ",
         completeStage: 4,
         useCases:
@@ -408,7 +412,7 @@ export default new Vuex.Store({
         technology: "Блокчейн",
         subject: "Строительство",
         id: 11,
-        imageSrc: null,
+        imageSrc: "https://toplogos.ru/images/logo-adata.png",
         title: "Доставка корпоративных холодильников ",
         completeStage: 2,
         useCases:
@@ -444,7 +448,8 @@ export default new Vuex.Store({
         technology: "Машинное обучение",
         subject: "Общество и благосфера",
         id: 12,
-        imageSrc: null,
+        imageSrc:
+          "https://w7.pngwing.com/pngs/591/333/png-transparent-gs-group-gs-caltex-logo-company-logo-design-people-logo-engineering.png",
         title: "Аренда игрушечных домов ",
         completeStage: 4,
         useCases:
@@ -481,7 +486,8 @@ export default new Vuex.Store({
         technology: "Виртуальная реальность",
         subject: "Робототехника",
         id: 13,
-        imageSrc: null,
+        imageSrc:
+          "https://w7.pngwing.com/pngs/591/333/png-transparent-gs-group-gs-caltex-logo-company-logo-design-people-logo-engineering.png",
         title: "Доставка умных туалетов ",
         completeStage: 1,
         useCases:
@@ -517,7 +523,8 @@ export default new Vuex.Store({
         technology: "Виртуальная реальность",
         subject: "Строительство",
         id: 14,
-        imageSrc: null,
+        imageSrc:
+          "https://avatars.mds.yandex.net/i?id=abc4a602bfa41889b51726a8673938f6-5563700-images-thumbs&n=13",
         title: "Утилизация советских печек ",
         completeStage: 2,
         useCases:
@@ -553,7 +560,7 @@ export default new Vuex.Store({
         technology: "Машинное обучение",
         subject: "Финансы",
         id: 15,
-        imageSrc: null,
+        imageSrc: "https://static.cdnlogo.com/logos/w/37/wordppess-icon.svg",
         title: "Доставка лунных волос ",
         completeStage: 6,
         useCases:
@@ -589,7 +596,7 @@ export default new Vuex.Store({
         technology: "Виртуальная реальность",
         subject: "Энергетика",
         id: 16,
-        imageSrc: null,
+        imageSrc: "https://toplogos.ru/images/logo-adata.png",
         title: "Продажа умных лодок ",
         completeStage: 3,
         useCases:
@@ -625,7 +632,8 @@ export default new Vuex.Store({
         technology: "Виртуальная реальность",
         subject: "Строительство",
         id: 17,
-        imageSrc: null,
+        imageSrc:
+          "https://logos-world.net/wp-content/uploads/2021/02/DPD-Logo.png",
         title: "Доставка корпоративных холодильников ",
         completeStage: 5,
         useCases:

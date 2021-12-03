@@ -12,9 +12,9 @@
           </div>
           <div class="image">
             <v-img
-              max-height="MAX_SYMBOLS"
-              max-width="170"
-              src="https://picsum.photos/id/11/500/300"
+              :height="100"
+              :width="170"
+              :src="imageSrc ? imageSrc : 'https://picsum.photos/id/11/500/300'"
             ></v-img>
           </div>
         </v-row>
@@ -98,6 +98,7 @@ export default {
     "shortDescription",
     "technology",
     "subject",
+    "imageSrc",
   ],
   components: { Filters, CompleteStageSlider },
   data: () => ({
