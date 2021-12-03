@@ -10,7 +10,8 @@
       ]"
       divider="-"
     ></v-breadcrumbs>
-    <div class="mt-6">
+    <FullCard :application="application"></FullCard>
+    <!-- <div class="mt-6">
       <div>
         <v-row ma-0>
           <div class="image">
@@ -67,12 +68,14 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
   </v-container>
 </template>
 
 <script>
+import FullCard from "../components/FullCard.vue";
 export default {
+  components: { FullCard },
   data: () => ({
     text: "",
   }),
