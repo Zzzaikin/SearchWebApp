@@ -629,6 +629,19 @@ export default new Vuex.Store({
     applicationById: (state) => (id) => {
       return state.applications.find((el) => el.id == id);
     },
+    applicationsBySearchValue:
+      (state) =>
+      ({ text, filters }) => {
+        if (text) {
+          return state.applications.filter((el) => {
+            return Object.keys(el).some((key) =>
+              String(el[key]).toLowerCase().includes(String(text).toLowerCase())
+            );
+          });
+        } else {
+          return [];
+        }
+      },
   },
   modules: {},
 });

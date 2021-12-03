@@ -1,7 +1,8 @@
 <template>
   <div class="pa-10">
-    <Search> </Search>
+    <Search v-model="searchValue"> </Search>
     <div class="mt-10">
+      <pre>searchValue:{{ searchValue }}</pre>
       <div v-if="chunkedCards.length">
         <v-row class="ma-0" v-for="(chunk, i) in chunkedCards" :key="i">
           <v-col v-for="(item, j) in chunkedCards[i]" :key="item.id">
@@ -20,9 +21,6 @@
           <v-col v-if="chunkedCards[i].length < 2">
             <v-spacer></v-spacer>
           </v-col>
-          <!--  <v-col v-if="chunkedCards[i].length < 3">
-            <v-spacer></v-spacer>
-          </v-col> -->
         </v-row>
       </div>
       <div v-else>
@@ -38,15 +36,26 @@ import Search from "../components/Search";
 export default {
   name: "Home",
   data: () => ({
-    text: "",
+    searchValue: {
+      text: "",
+      filters: [],
+    },
   }),
   computed: {
     cards() {
-      return this.$store.state.applications;
+      //return this.$store.state.applications;
       //return [];
+      return this.$store.getters.applicationsBySearchValue(this.searchValue);
     },
     chunkedCards() {
       return this.cards.chunk(2);
+    },
+    watch: {
+      searchValue() {
+        this.cards = this.$store.getters.applicationsBySearchValue(
+          this.searchValue
+        );
+      },
     },
   },
   components: {

@@ -45,11 +45,14 @@
 
 <script>
 import Filters from "./Filters.vue";
+
 export default {
+  props: ["value"],
   components: { Filters },
   data: () => ({
     text: "",
     menuIsOpened: false,
+    filters: [],
   }),
   methods: {
     log() {
@@ -58,7 +61,7 @@ export default {
   },
   watch: {
     text() {
-      console.log("text changed");
+      this.$emit("input", { text: this.text, filters: this.filters });
     },
   },
 };

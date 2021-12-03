@@ -83,7 +83,7 @@ export default {
   ],
   components: { Filters, CompleteStageSlider },
   data: () => ({
-    MAX_SYMBOLS: 120,
+    MAX_SYMBOLS: 124,
   }),
   methods: {
     goToApplication() {
