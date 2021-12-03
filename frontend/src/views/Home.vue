@@ -24,7 +24,10 @@
           </v-row>
         </div>
         <div v-else>
-          <span>Нет данных</span>
+          <div style="display: flex; flex-direction: column">
+            <span>По вашему запросу ничего не найдено.</span>
+            <a href="/request">Оставить заявку</a>
+          </div>
         </div>
       </div>
       <div v-else>
