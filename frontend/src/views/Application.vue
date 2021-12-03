@@ -79,11 +79,6 @@ export default {
   computed: {
     application() {
       const applicationId = this.$router.currentRoute.params.id;
-      console.log(applicationId);
-      console.log(
-        "application",
-        this.$store.getters.applicationById(applicationId)
-      );
       return this.$store.getters.applicationById(applicationId);
     },
   },
@@ -98,5 +93,11 @@ p {
 }
 h1 {
   margin-top: 0;
+}
+
+::v-deep .v-slider__tick {
+  width: 0px !important;
+  height: 0px !important;
+  opacity: 0 !important;
 }
 </style>

@@ -43,4 +43,7 @@ export default {
 .parameter-wrapper {
   display: inline-flex;
 }
+p {
+  text-align: justify;
+}
 </style>

@@ -2,11 +2,17 @@
   <div>
     <v-card class="mx-auto" elevation="0" outlined>
       <v-card-text>
-        <v-row class="ma-0 my-3">
-          <p class="text-h4 text--primary">{{ title }}</p>
+        <v-row class="ma-0 my-3" justify="space-between">
+          <div class="application-title-wrapper">
+            <span
+              :title="title"
+              class="text-h5 text--primary application-title"
+              >{{ title }}</span
+            >
+          </div>
           <div class="image">
             <v-img
-              max-height="120"
+              max-height="MAX_SYMBOLS"
               max-width="170"
               src="https://picsum.photos/id/11/500/300"
             ></v-img>
@@ -14,28 +20,42 @@
         </v-row>
         <div>
           <div class="parameters mt-4">
-            <v-row class="my-3 wr">
-              <span class="parameter-title">Стадия готовности: </span>
-              <!--   <span class="ml-2">{{ completeStage }}</span> -->
-              <CompleteStageSlider></CompleteStageSlider>
-            </v-row>
+            <CompleteStageSlider
+              :completeStage="completeStage"
+            ></CompleteStageSlider>
             <p class="my-3">
               <span class="parameter-title"
                 >Кейсы использования продукта:
               </span>
-              <span class="ml-2">{{ useCases }}</span>
+              <span class="ml-2">{{
+                useCases.length > MAX_SYMBOLS
+                  ? useCases.slice(0, MAX_SYMBOLS) + "..."
+                  : useCases
+              }}</span>
             </p>
             <p class="my-3">
               <span class="parameter-title">Наличие пилотного проекта: </span>
-              <span class="ml-2">{{ pilotProjectExists }}</span>
+              <span class="ml-2">{{
+                pilotProjectExists.length > MAX_SYMBOLS
+                  ? pilotProjectExists.slice(0, MAX_SYMBOLS) + "..."
+                  : pilotProjectExists
+              }}</span>
             </p>
             <p class="my-3">
               <span class="parameter-title">Польза продукта: </span>
-              <span class="ml-2">{{ productBenefits }}</span>
+              <span class="ml-2">{{
+                productBenefits.length > MAX_SYMBOLS
+                  ? productBenefits.slice(0, MAX_SYMBOLS) + "..."
+                  : productBenefits
+              }}</span>
             </p>
             <p>
               <span class="parameter-title">Краткое описание: </span>
-              <span class="ml-2">{{ shortDescription }}</span>
+              <span class="ml-2">{{
+                shortDescription.length > MAX_SYMBOLS
+                  ? shortDescription.slice(0, MAX_SYMBOLS) + "..."
+                  : shortDescription
+              }}</span>
             </p>
           </div>
         </div>
@@ -62,7 +82,9 @@ export default {
     "shortDescription",
   ],
   components: { Filters, CompleteStageSlider },
-  data: () => ({}),
+  data: () => ({
+    MAX_SYMBOLS: 120,
+  }),
   methods: {
     goToApplication() {
       this.$router.push(`/application/${this.id}`);
@@ -72,7 +94,7 @@ export default {
 </script>
 <style scoped>
 ::v-deep .v-card__text {
-  font-size: 16px !important;
+  font-size: 18px !important;
   color: black !important;
 }
 .image {
@@ -81,5 +103,22 @@ export default {
 .wr {
   display: flex;
   flex-direction: row;
+  smargin-left: 12px;
+}
+.aa {
+  max-height: 40px;
+  max-width: 500px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.application-title {
+  font-weight: 600;
+}
+.application-title-wrapper {
+  width: 60%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 </style>
