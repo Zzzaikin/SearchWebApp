@@ -4,7 +4,11 @@
       <v-tabs v-model="tab" align-with-title>
         <v-tabs-slider></v-tabs-slider>
 
-        <v-tab v-for="item in tabs" :key="item">
+        <v-tab
+          v-for="(item, i) in tabs"
+          :key="item"
+          @click="i == 0 ? goTo('/') : goTo('/request')"
+        >
           {{ item }}
         </v-tab>
       </v-tabs>
@@ -24,13 +28,18 @@ export default {
     tabs: ["Поиск", "Оставить заявку"],
     tab: 0,
   }),
-  watch: {
+  /*   watch: {
     tab() {
       if (this.tab === 0) {
         this.$router.push("/");
       } else if (this.tab === 1) {
         this.$router.push("/request");
       }
+    },
+  }, */
+  methods: {
+    goTo(path) {
+      this.$router.push(path);
     },
   },
 };
