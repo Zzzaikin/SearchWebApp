@@ -24,9 +24,13 @@
           </div>
           <div class="image image-pos">
             <v-img
-              max-height="MAX_SYMBOLS"
+              max-height="200"
               max-width="420"
-              src="https://picsum.photos/id/11/500/300"
+              :src="
+                application.imageSrc
+                  ? application.imageSrc
+                  : 'https://picsum.photos/id/11/500/300'
+              "
             ></v-img>
           </div>
         </v-row>
