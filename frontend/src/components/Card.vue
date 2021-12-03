@@ -46,7 +46,7 @@
         </div>
       </v-card-text>
       <v-card-actions>
-        <v-btn text color="primary"> Подробнее </v-btn>
+        <v-btn text color="primary" @click="goToApplication"> Подробнее </v-btn>
       </v-card-actions>
     </v-card>
   </div>
@@ -56,6 +56,7 @@
 import Filters from "./Filters.vue";
 export default {
   props: [
+    "id",
     "title",
     "completeStage",
     "useCases",
@@ -67,21 +68,13 @@ export default {
   components: { Filters },
   data: () => ({}),
   methods: {
-    log() {
-      console.log("log");
+    goToApplication() {
+      this.$router.push(`/application/${this.id}`);
     },
   },
 };
 </script>
 <style scoped>
-.parameter-title {
-  color: black !important;
-  font-weight: 600;
-}
-.parameter-wrapper {
-  display: inline-flex;
-  sflex-direction: row;
-}
 ::v-deep .v-card__text {
   font-size: 16px !important;
   color: black !important;

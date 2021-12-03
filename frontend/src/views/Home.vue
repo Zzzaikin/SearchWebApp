@@ -7,6 +7,7 @@
           <v-col v-for="(item, j) in chunkedCards[i]" :key="item.id">
             <Card
               :class="j === 1 ? 'my-4 ml-2' : 'my-4 mr-2'"
+              :id="item.id"
               :title="item.title"
               :completeStage="item.completeStage"
               :useCases="item.useCases"
@@ -41,17 +42,7 @@ export default {
   }),
   computed: {
     cards() {
-      return Array.from({ length: 100 }).map((el, i) => ({
-        id: i,
-        title: "Название стартапа",
-        completeStage: "Стадия готовности продукта",
-        useCases: "Кейсы использования продукта",
-        certificationNeed: "Требуется ли сертификация продукта",
-        pilotProjectExists: "Наличие пилотного проекта",
-        productBenefits: "Польза продукта",
-        shortDescription:
-          "Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта",
-      }));
+      return this.$store.state.applications;
       //return [];
     },
     chunkedCards() {
