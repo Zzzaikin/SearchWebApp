@@ -12,6 +12,8 @@
               :useCases="item.useCases"
               :certificationNeed="item.certificationNeed"
               :pilotProjectExists="item.pilotProjectExists"
+              :productBenefits="item.productBenefits"
+              :shortDescription="item.shortDescription"
             ></Card>
           </v-col>
           <v-col v-if="chunkedCards[i].length < 2">
@@ -46,6 +48,9 @@ export default {
         useCases: "Кейсы использования продукта",
         certificationNeed: "Требуется ли сертификация продукта",
         pilotProjectExists: "Наличие пилотного проекта",
+        productBenefits: "Польза продукта",
+        shortDescription:
+          "Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта Краткое описание продукта",
       }));
       //return [];
     },

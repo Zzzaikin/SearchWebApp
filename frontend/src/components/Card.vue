@@ -14,45 +14,39 @@
         </v-row>
         <div>
           <div class="parameters mt-4">
-            <v-row class="ma-0">
+            <p class="ma-0">
               <span class="parameter-title">Стадия готовности: </span>
               <span class="ml-2">{{ completeStage }}</span>
-            </v-row>
-            <v-row class="ma-0">
+            </p>
+            <p class="ma-0">
               <span class="parameter-title"
                 >Кейсы использования продукта:
               </span>
               <span class="ml-2">{{ useCases }}</span>
-            </v-row>
-            <v-row class="ma-0">
+            </p>
+            <p class="ma-0">
+              <span class="parameter-title">Наличие пилотного проекта: </span>
+              <span class="ml-2">{{ pilotProjectExists }}</span>
+            </p>
+            <p class="ma-0">
               <span class="parameter-title"
                 >Требуется ли сертификация продукта:
               </span>
               <span class="ml-2">{{ certificationNeed }}</span>
-            </v-row>
-            <v-row class="ma-0">
-              <span class="parameter-title"
-                >Требуется ли сертификация продукта:
-              </span>
-              <span class="ml-2">{{ certificationNeed }}</span>
-            </v-row>
-            <v-row class="ma-0">
-              <span class="parameter-title"
-                >Требуется ли сертификация продукта:
-              </span>
-              <span class="ml-2">{{ certificationNeed }}</span>
-            </v-row>
-            <v-row class="ma-0">
-              <span class="parameter-title"
-                >Требуется ли сертификация продукта:
-              </span>
-              <span class="ml-2">{{ certificationNeed }}</span>
-            </v-row>
+            </p>
+            <p class="ma-0">
+              <span class="parameter-title">Польза продукта: </span>
+              <span class="ml-2">{{ productBenefits }}</span>
+            </p>
+            <p>
+              <span class="parameter-title">Краткое описание: </span>
+              <span class="ml-2">{{ shortDescription }}</span>
+            </p>
           </div>
         </div>
       </v-card-text>
       <v-card-actions>
-        <v-btn text color="deep-purple accent-4"> Learn More </v-btn>
+        <v-btn text color="primary"> Подробнее </v-btn>
       </v-card-actions>
     </v-card>
   </div>
@@ -67,7 +61,8 @@ export default {
     "useCases",
     "certificationNeed",
     "pilotProjectExists",
-    "",
+    "productBenefits",
+    "shortDescription",
   ],
   components: { Filters },
   data: () => ({}),
@@ -82,5 +77,13 @@ export default {
 .parameter-title {
   color: black !important;
   font-weight: 600;
+}
+.parameter-wrapper {
+  display: inline-flex;
+  sflex-direction: row;
+}
+::v-deep .v-card__text {
+  font-size: 16px !important;
+  color: black !important;
 }
 </style>
